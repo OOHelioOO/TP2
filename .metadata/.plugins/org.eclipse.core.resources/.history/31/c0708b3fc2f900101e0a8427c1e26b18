@@ -1,0 +1,9 @@
+package simulator.model;
+
+public interface SelectionStrategy {  
+	Animal select(Animal a, List<Animal> as);  
+	//Animal selectFirst();
+	//Animal selectClosest();
+	//Animal selectYounger();
+	//Animal selectNerd();
+}

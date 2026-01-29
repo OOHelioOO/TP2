@@ -1,0 +1,5 @@
+package simulator.model;
+
+public enum Sate {
+	NORMAL, MATE, HUNGER, DANGER, DEADE;
+}
